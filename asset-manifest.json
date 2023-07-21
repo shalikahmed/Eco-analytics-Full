@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Eco-analytics-Full/static/css/main.748b63ce.css",
+    "main.js": "/Eco-analytics-Full/static/js/main.49fede83.js",
+    "static/media/image2.jpg": "/Eco-analytics-Full/static/media/image2.2548e77547435c0f52a4.jpg",
+    "static/media/image1.jpg": "/Eco-analytics-Full/static/media/image1.9d0f9dd05ec8aab9b8d3.jpg",
+    "index.html": "/Eco-analytics-Full/index.html",
+    "main.748b63ce.css.map": "/Eco-analytics-Full/static/css/main.748b63ce.css.map",
+    "main.49fede83.js.map": "/Eco-analytics-Full/static/js/main.49fede83.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.748b63ce.css",
+    "static/js/main.49fede83.js"
+  ]
+}
