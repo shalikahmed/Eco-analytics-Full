@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
-import trainData from './traindata.js';
 import './TrainBetweenStations.css';
-import { FaLocationArrow, FaTimes } from 'react-icons/fa';
+import { FaLocationArrow, } from 'react-icons/fa';
 
 import {
   useJsApiLoader,
@@ -11,7 +10,7 @@ import {
   DirectionsRenderer,
 } from '@react-google-maps/api';
 
-import { vehicleEmissions, averageSpeeds, trains } from './data';
+import { vehicleEmissions, averageSpeeds,} from './data';
 
 const center = { lat: 48.8584, lng: 2.2945 };
 
@@ -52,15 +51,15 @@ function Map() {
   const [map, setMap] = useState(null);
   const [directionsResponse, setDirectionsResponse] = useState(null);
   const [distance, setDistance] = useState('');
-  const [duration, setDuration] = useState('');
-  const [vehicleTimes, setVehicleTimes] = useState([]);
+  const [setDuration] = useState('');
+  const [setVehicleTimes] = useState([]);
   const [selectedVehicle, setSelectedVehicle] = useState('');
   const [isRouteCalculated, setIsRouteCalculated] = useState(false);
   const [showAdditionalFields, setShowAdditionalFields] = useState(false);
   const [startTime, setStartTime] = useState('');
   const [endTime, setEndTime] = useState('');
   const [availableTrains, setAvailableTrains] = useState([]);
-  const [vehicleWithLeastEmission, setVehicleWithLeastEmission] = useState('');
+
 
   const originRef = useRef();
   const destinationRef = useRef();
